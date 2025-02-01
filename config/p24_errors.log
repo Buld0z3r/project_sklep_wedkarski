@@ -1,0 +1,29 @@
+[01-Feb-2025 23:16:36 Europe/Berlin] P24 Request Data: {"merchantId":64319,"posId":64319,"sessionId":"P24_679e9d43cfd06","amount":38997,"currency":"PLN","description":"Zam\u00f3wienie w sklepie w\u0119dkarskim","email":"admin@sklep.pl","client":"admin","country":"PL","language":"pl","urlReturn":"http:\/\/localhost\/project\/podstrona\/payment_success.php","urlStatus":"http:\/\/localhost\/project\/podstrona\/payment_verify.php","encoding":"UTF-8","sign":"15dfdf7610abf5b9f84a3b371e7b03188451657aca127578f9c2491e5a34c2950d26a1ad7e604d9dac604fbd2202a796"}
+[01-Feb-2025 23:16:36 Europe/Berlin] P24 Response: {"error":"Incorrect authentication","code":401}
+[01-Feb-2025 23:16:36 Europe/Berlin] P24 HTTP Status: 401
+[01-Feb-2025 23:16:36 Europe/Berlin] P24 Error: Błąd podczas inicjowania płatności: {"error":"Incorrect authentication","code":401}
+[01-Feb-2025 23:16:38 Europe/Berlin] P24 Request Data: {"merchantId":64319,"posId":64319,"sessionId":"P24_679e9d469e505","amount":38997,"currency":"PLN","description":"Zam\u00f3wienie w sklepie w\u0119dkarskim","email":"admin@sklep.pl","client":"admin","country":"PL","language":"pl","urlReturn":"http:\/\/localhost\/project\/podstrona\/payment_success.php","urlStatus":"http:\/\/localhost\/project\/podstrona\/payment_verify.php","encoding":"UTF-8","sign":"25a8a360e3406d7328d90ff3d88b4c862f48a1bb44ace66ed30d3d88a5429589376091383a7242d39b5792631d1e8434"}
+[01-Feb-2025 23:16:38 Europe/Berlin] P24 Response: {"error":"Incorrect authentication","code":401}
+[01-Feb-2025 23:16:38 Europe/Berlin] P24 HTTP Status: 401
+[01-Feb-2025 23:16:38 Europe/Berlin] P24 Error: Błąd podczas inicjowania płatności: {"error":"Incorrect authentication","code":401}
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Request URL: https://sandbox.przelewy24.pl/api/v1/transaction/register
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Request Headers: ["Content-Type: application\/json","Authorization: Basic NjQzMTk6OWMxMWU3MDVlNWU3Yzg="]
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Request Data: {
+    "amount": 38997,
+    "client": "admin",
+    "country": "PL",
+    "currency": "PLN",
+    "description": "Zam\u00f3wienie w sklepie w\u0119dkarskim",
+    "email": "admin@sklep.pl",
+    "encoding": "UTF-8",
+    "language": "pl",
+    "merchantId": 64319,
+    "posId": 64319,
+    "sessionId": "P24_679e9dda4cebc",
+    "urlReturn": "http:\/\/localhost\/podstrona\/payment_success.php",
+    "urlStatus": "http:\/\/localhost\/podstrona\/payment_verify.php",
+    "sign": "6464d8dfd29ecf3739012f18dbf0e35c65893f76cb479197de1c09a9dd99a38ed7d5006306f82d6a17a8295c8cd433a7"
+}
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Response Status: 401
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Response Body: {"error":"Incorrect authentication","code":401}
+[01-Feb-2025 23:19:06 Europe/Berlin] P24 Error: Błąd podczas inicjowania płatności: {"error":"Incorrect authentication","code":401}
