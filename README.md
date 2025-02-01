@@ -25,3 +25,12 @@ sklep_wedkarski/
 - `visa.png` - Logo Visa
 
 Reszta dokumentacji pozostaje bez zmian.
+
+--Import do xampp--
+supabase -> migrations -> Xampp_database.sql
+
+-------------------------
+-      Dane admina:     -
+-      admin@sklep.pl   -
+-      admin123         -
+-------------------------
