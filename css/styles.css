@@ -1,0 +1,104 @@
+/* Główne style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    color: #333;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav-buttons {
+    margin-bottom: 20px;
+}
+
+.nav-buttons a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #007BFF;
+    color: white;
+    transform: translateY(-2px);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* Reszta stylów pozostaje bez zmian */
+.payment-methods {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.payment-method {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.payment-method:hover {
+    border-color: #007BFF;
+    transform: translateY(-2px);
+}
+
+.payment-method img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.payment-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.payment-icons img {
+    height: 30px;
+    object-fit: contain;
+}
