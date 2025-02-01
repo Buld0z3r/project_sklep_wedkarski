@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Wędkarski</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #0061a8 0%, #003459 100%);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .cta-button {
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .primary {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .secondary {
+            background-color: white;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="nav-buttons">
+                <a href="podstrona/about.html">O nas</a>
+                <a href="podstrona/products.php">Produkty</a>
+                <a href="podstrona/cart.php">Koszyk</a>
+                <a href="podstrona/kontakt.html">Kontakt</a>
+                <a href="podstrona/signup.php">Konto</a>
+            </div>
+            <h1>Sklep Wędkarski</h1>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Witaj w świecie wędkarstwa!</h2>
+                <p>Odkryj najlepszy sprzęt wędkarski w jednym miejscu</p>
+                <div class="cta-buttons">
+                    <a href="podstrona/products.php" class="cta-button primary">Zobacz produkty</a>
+                    <a href="podstrona/about.html" class="cta-button secondary">Dowiedz się więcej</a>
+                </div>
+            </section>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Szeroki wybór</h3>
+                    <p>Tysiące produktów od najlepszych producentów</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Profesjonalne doradztwo</h3>
+                    <p>Nasi eksperci pomogą w wyborze sprzętu</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Szybka dostawa</h3>
+                    <p>Wysyłka w 24h od złożenia zamówienia</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Gwarancja jakości</h3>
+                    <p>Tylko sprawdzony i certyfikowany sprzęt</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sklep Wędkarski. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+</body>
+</html>
