@@ -1,4 +1,11 @@
-# Sklep Wędkarski - Instrukcja Instalacji
+# Sklep Wędkarski
+
+https://github.com/Buld0z3r/project_sklep_wedkarski.git
+
+# Instrukcja Instalacji
+
+--Import do xampp--
+supabase -> migrations -> Xampp_database.sql
 
 ## Struktura projektu
 ```
@@ -25,9 +32,6 @@ sklep_wedkarski/
 - `visa.png` - Logo Visa
 
 Reszta dokumentacji pozostaje bez zmian.
-
---Import do xampp--
-supabase -> migrations -> Xampp_database.sql
 
 -------------------------
 -      Dane admina:     -
